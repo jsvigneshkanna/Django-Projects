@@ -1,3 +1,6 @@
 from django.shortcuts import render
+from django.http import HttpResponse
 
-# Create your views here.
+# Sample View to test the flow
+def index(request):
+    return HttpResponse("Hell0, Iam Vignesh 😍")
